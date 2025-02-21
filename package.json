@@ -1,0 +1,17 @@
+{
+  "name": "feeltheaqi",
+  "version": "1.0.0",
+  "description": "A simple web application that shows the Air Quality Index (AQI) for your current location.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.78",
+    "express": "^4.21.2"
+  }
+}
